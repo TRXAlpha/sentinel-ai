@@ -12,7 +12,7 @@ from ultralytics import YOLO
 # CONFIG
 # ==========================
 
-ESP_IP = "10.62.241.20"
+ESP_IP = "YOUR_ESP32_IP"
 ESP_BASE = f"http://{ESP_IP}"
 ESP_STREAM = f"http://{ESP_IP}:81/stream"
 

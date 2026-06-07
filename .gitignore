@@ -1,9 +1,16 @@
-﻿.venv/
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
 venv/
 env/
-__pycache__/
-*.pyc
 
+# Local models and generated weights
 weights/
 *.pt
 *.pth
@@ -11,16 +18,30 @@ weights/
 *.gguf
 *.safetensors
 *.bin
+*.mf
+*.mf.gz
 
+# Local secrets
 .env
 .env.*
 
+# Runtime artifacts
 *.log
+*.tmp
 *.db
 *.sqlite
 *.sqlite3
+captures/
+screenshots/
 
+# JavaScript/build artifacts
 node_modules/
 dist/
 build/
 .cache/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

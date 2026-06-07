@@ -3,7 +3,7 @@ from io import BytesIO
 from PIL import Image
 import moondream as md
 
-ESP_IP = "10.62.241.20"
+ESP_IP = "YOUR_ESP32_IP"
 IMG_URL = f"http://{ESP_IP}/jpg"
 
 MODEL_PATH = "weights/moondream-0_5b-int8.mf.gz"
